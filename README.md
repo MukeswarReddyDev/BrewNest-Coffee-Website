@@ -1,6 +1,6 @@
-# ☕ BrewNest Coffee Website
+# ☕ BrewNest Cafe Website
 
-A modern, responsive, and highly interactive web application designed for **BrewNest Coffee**, a premium specialty coffee roastery and café. The project showcases premium aesthetics, micro-animations, and interactive barista tools.
+A modern, responsive, and highly interactive web application designed for **BrewNest Cafe**, a premium specialty coffee roastery and café. The project showcases premium aesthetics, micro-animations, and interactive barista tools.
 
 Live Preview available by opening the [index.html](index.html) file directly in your browser.
 
@@ -43,4 +43,4 @@ Live Preview available by opening the [index.html](index.html) file directly in 
 ## ✍️ Author & Credits
 
 *   **Developed by**: Mukeswar Reddy
-*   **Copyright**: © 2026 BrewNest Coffee Specialty Roasters. All Rights Reserved.
+*   **Copyright**: © 2026 BrewNest Cafe Specialty Roasters. All Rights Reserved.
