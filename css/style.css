@@ -1208,14 +1208,66 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   #about, #brew-configurator, #menu, #gallery, .testimonials, #contact {
     padding: 5rem 0;
   }
+  .display-5 {
+    font-size: 2.25rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .lightbox-content {
+    max-width: 95%;
+  }
+  .lightbox-prev {
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .lightbox-next {
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .lightbox-close {
+    top: -50px;
+    right: 10px;
+  }
+  .contact-info-list {
+    margin: 1.5rem 0;
+  }
 }
 
 @media (max-width: 575px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 6rem 0;
+  }
   .hero h1 {
     font-size: 2.25rem;
   }
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-ctas .btn {
+    width: 100%;
+  }
   .cart-drawer {
     max-width: 100vw;
+  }
+  .contact-card {
+    padding: 1.5rem;
+  }
+  .brew-card {
+    padding: 1.25rem;
+  }
+  .about-img-container {
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .about-img-container::before {
+    display: none;
   }
 }
 
