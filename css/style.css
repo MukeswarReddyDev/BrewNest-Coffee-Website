@@ -28,11 +28,15 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--color-bg-dark);
   color: var(--color-text-light);
-  overflow-x: hidden;
   line-height: 1.6;
 }
 
@@ -1211,6 +1215,20 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   .display-5 {
     font-size: 2.25rem !important;
   }
+  .brew-card.h-100 {
+    height: auto !important;
+  }
+  .navbar-nav {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .nav-link {
+    padding: 0.75rem 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  .nav-link::after {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1231,6 +1249,14 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   }
   .contact-info-list {
     margin: 1.5rem 0;
+  }
+  .brew-slider-input::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+  }
+  .brew-slider-input::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -1268,6 +1294,12 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   }
   .about-img-container::before {
     display: none;
+  }
+  .gallery-grid img {
+    height: 250px;
+  }
+  .review-card {
+    padding: 1.5rem;
   }
 }
 
