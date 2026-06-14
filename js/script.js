@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Coupon calculation
     let discount = 0;
-    if (currentCoupon === 'HAVEN20') {
+    if (currentCoupon === 'BREWNEST20') {
       discount = Math.round(subtotal * 0.20);
     } else if (currentCoupon === 'BREW10') {
       discount = Math.round(subtotal * 0.10);
@@ -381,8 +381,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (btnApplyCoupon) {
     btnApplyCoupon.addEventListener('click', () => {
       const val = couponInput.value.trim().toUpperCase();
-      if (val === 'HAVEN20') {
-        currentCoupon = 'HAVEN20';
+      if (val === 'BREWNEST20') {
+        currentCoupon = 'BREWNEST20';
         alert('Promo code Applied! 20% discount added.');
         updateCartUI();
       } else if (val === 'BREW10') {
@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (val === '') {
         alert('Please enter a coupon code.');
       } else {
-        alert('Invalid Coupon Code! Try HAVEN20 or BREW10');
+        alert('Invalid Coupon Code! Try BREWNEST20 or BREW10');
       }
     });
   }
